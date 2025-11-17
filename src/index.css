@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f6f6f6;
+  --color-primary: #172655;
+  --color-secondary: #001744,
+  --color-on-background: #0f0f0e;
+  --color-green: #88be48;
+}
+
+:root {
+  @apply text-base text-primary font-bold;
+}
+
+.container {
+  @apply max-w-[1230px] w-full px-4 mx-auto;
+}
+
+.button-white {
+  @apply relative bg-background text-lg border border-green py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-green after:rounded-tl-[20px] after:-z-10;
+}
+
+.button-primary {
+  @apply relative bg-primary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-green after:rounded-tl-[20px] after:-z-10;
+}
+
+.h1 {
+  @apply text-[54px] leading-[110%];
+}
+
+.h2 {
+  @apply text-[44px] leading-[130%];
+}
+
+.h3 {
+  @apply text-[26px] leading-[120%];
+}
+
+.p {
+  @apply text-lg font-light text-on-background;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.marquee-wrapper {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.marquee,
+.marquee2 {
+  display: flex;
+  gap: 40px;
+}
+
+.marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.marquee2 {
+  position: absolute;
+  top: 0;
+  animation: marquee2 20s linear infinite;
+}

@@ -1,0 +1,33 @@
+{
+  "header": {
+    "nav": [
+      {
+        "text": "What’s On",
+        "link": ""
+      },
+      {
+        "text": "Visit",
+        "link": ""
+      },
+      {
+        "text": "Exhibit & Sponsor",
+        "link": ""
+      },
+      {
+        "text": "Content Hub",
+        "link": ""
+      }
+    ],
+
+    "buttons": [
+      {
+        "text": "Get my ticket",
+        "link": ""
+      },
+      {
+        "text": "Enquire to exhibit",
+        "link": ""
+      }
+    ]
+  }
+}

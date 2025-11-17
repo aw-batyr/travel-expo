@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "title": "Turkmen Travel International Exhibition",
+    "description": "'Turkmen Travel' is an international exhibition dedicated to the development of tourism in Turkmenistan, held in Ashgabat. It brings together travel agencies, hotels, airlines, and tour operators from around the world to present tourist destinations, develop partnerships, and promote the country's cultural and natural attractions.",
+    "buttons": [
+      {
+        "text": "Get my ticket",
+        "link": ""
+      },
+      {
+        "text": "Enquire to exhibit",
+        "link": ""
+      }
+    ]
+  },
+
+  "about": {
+    "stats": [
+      {
+        "title": "35,000",
+        "description": "Global education community attendees"
+      },
+      {
+        "title": "35,000",
+        "description": "Countries represented"
+      },
+      {
+        "title": "35,000",
+        "description": "Companies exhibiting"
+      },
+      {
+        "title": "35,000",
+        "description": "World class speakers"
+      }
+    ],
+
+    "title": "Turkmen Travel International Exhibition Registration is now",
+    "button": {
+      "text": "Enquire to exhibit",
+      "link": ""
+    }
+  },
+
+  "attend": {
+    "title": "Who should attend Turkmen Travel  2026?"
+  }
+}
