@@ -34,7 +34,9 @@ export const Header = () => {
             {buttons.map((item, i) => (
               <Link key={item.text} to={item.link}>
                 <button
-                  className={clsx(i === 0 ? "button-white" : "button-primary")}
+                  className={clsx(
+                    i !== 0 ? "button-secondary" : "button-primary"
+                  )}
                 >
                   {item.text}
                 </button>

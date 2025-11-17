@@ -2,26 +2,34 @@
 
 @theme {
   --color-background: #f6f6f6;
-  --color-primary: #172655;
-  --color-secondary: #001744,
+  --color-primary: #ff007f;
+  --color-violet: #372077;
+  --color-secondary: #001744;
   --color-on-background: #0f0f0e;
   --color-green: #88be48;
 }
 
 :root {
-  @apply text-base text-primary font-bold;
+  @apply text-base text-secondary font-bold;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .container {
   @apply max-w-[1230px] w-full px-4 mx-auto;
 }
 
-.button-white {
-  @apply relative bg-background text-lg border border-green py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-green after:rounded-tl-[20px] after:-z-10;
+.button-primary {
+  @apply relative bg-primary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-violet after:rounded-tl-[20px] after:-z-10;
 }
 
-.button-primary {
-  @apply relative bg-primary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-green after:rounded-tl-[20px] after:-z-10;
+.button-white {
+  @apply relative bg-white text-violet text-lg py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
+}
+
+.button-secondary {
+  @apply relative bg-secondary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
 }
 
 .h1 {
@@ -37,7 +45,7 @@
 }
 
 .p {
-  @apply text-lg font-light text-on-background;
+  @apply text-lg font-light;
 }
 
 @keyframes marquee {
@@ -45,13 +53,13 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(100%);
   }
 }
 
 @keyframes marquee2 {
   0% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
   100% {
     transform: translateX(0%);
@@ -63,6 +71,7 @@
   overflow: hidden;
   white-space: nowrap;
   display: flex;
+  gap: 10px;
 }
 
 .marquee,
@@ -72,11 +81,12 @@
 }
 
 .marquee {
-  animation: marquee 20s linear infinite;
+  animation: marquee 30s linear infinite;
 }
 
 .marquee2 {
   position: absolute;
   top: 0;
-  animation: marquee2 20s linear infinite;
+  left: -40px;
+  animation: marquee2 30s linear infinite;
 }

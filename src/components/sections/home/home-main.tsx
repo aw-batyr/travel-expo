@@ -6,9 +6,9 @@ export interface Item {
   description: string;
 }
 
-export interface Link {
+export interface LinkType {
   text: string;
-  link: string;
+  link?: string;
 }
 
 export const HomeMain = () => {
@@ -17,7 +17,7 @@ export const HomeMain = () => {
   const data = t("about", { returnObjects: true }) as {
     stats: Item[];
     title: string;
-    button: Link;
+    button: LinkType;
     description: string;
   };
 
@@ -45,7 +45,7 @@ export const HomeMain = () => {
           <h2 className="text-4xl leading-[130%] text-on-background mb-5">
             {data.title}
           </h2>
-          <Link to={data.button.link}>
+          <Link to={data.button.link ?? ""}>
             <button className="button-primary">{data.button.text}</button>
           </Link>
         </div>

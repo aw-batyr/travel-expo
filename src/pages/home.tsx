@@ -1,5 +1,6 @@
 import {
   HomeAttend,
+  HomeBePart,
   HomeEnquire,
   HomeHero,
   HomeMain,
@@ -12,6 +13,7 @@ export default function Home() {
       <HomeMain />
       <HomeAttend />
       <HomeEnquire />
+      <HomeBePart />
     </div>
   );
 }

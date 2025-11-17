@@ -42,6 +42,60 @@
   },
 
   "attend": {
-    "title": "Who should attend Turkmen Travel  2026?"
+    "title": "Who should attend Turkmen Travel  2026?",
+
+    "cards": [
+      {
+        "title": "Travel Agencies & Tour Operators",
+        "description": "Discover exclusive Silk Road routes, Avaza beach packages, and partner with local operators to create unique Central Asian itineraries for your clients.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Hotels & Resorts",
+        "description": "Showcase your property to international buyers and explore joint ventures in Turkmenistan’s expanding eco-lodge and wellness tourism sectors.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Airlines & Transport Providers",
+        "description": ".Connect with tourism boards to promote new flight routes and seamless ground transfers linking Europe, Asia, and the Middle East via Ashgabat.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Travel Bloggers & Influencers",
+        "description": "Get first-hand access to hidden gems like the Darvaza Gas Crater and ancient Merv—perfect for creating viral content and sponsored collaborations.",
+        "button": { "text": "Discover more", "link": "" }
+      }
+    ]
+  },
+
+  "enquire": {
+    "title": "Get the Bett Buzz all year round!",
+    "description": "Enjoy a snapshot of industry news, must-views and exclusive updates about News 2026 when you sign up to our monthly newsletter.",
+    "button": {
+      "text": "Subscribe Now",
+      "link": ""
+    }
+  },
+
+  "be-part": {
+    "title": "Be part of Turkmen Travel  2026?",
+    "cards": [
+      {
+        "title": "Why visit?",
+        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "button": {
+          "text": "Discover more",
+          "link": ""
+        }
+      },
+      {
+        "title": "Why visit?",
+        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "button": {
+          "text": "Discover more",
+          "link": ""
+        }
+      }
+    ]
   }
 }

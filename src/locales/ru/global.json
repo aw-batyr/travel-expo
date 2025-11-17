@@ -29,5 +29,106 @@
         "link": ""
       }
     ]
+  },
+
+  "footer": {
+    "block1": {
+      "title": "Venue",
+
+      "data": [
+        "ExCeL London",
+        "Royal Victoria Dock",
+        "1 Western Gateways",
+        "London",
+        "E16 1XL"
+      ]
+    },
+    "block2": {
+      "title": "Opening Times",
+
+      "data": [
+        "Wednesday 21 January <br /> Arena doors open at 08:30 Show closes at 18:00",
+        "Thursday 22 January <br /> Arena doors open at 08:45 Show closes at 18:00",
+        "Friday 23 January <br /> Arena doors open at 08:30 Show closes at 18:00",
+        "Exhibition floor opens at 10:00 daily"
+      ]
+    },
+    "block3": {
+      "title": "Quick Links",
+
+      "data": [
+        {
+          "text": "About Bett",
+          "link": ""
+        },
+        {
+          "text": "Why Visit?",
+          "link": ""
+        },
+        {
+          "text": "Why Exhibit or Sponsor?",
+          "link": ""
+        },
+        {
+          "text": "Advisory Board",
+          "link": ""
+        },
+        {
+          "text": "Our Partners",
+          "link": ""
+        },
+        {
+          "text": "Accessibility",
+          "link": ""
+        },
+        {
+          "text": "Sustainability",
+          "link": ""
+        },
+        {
+          "text": "Contact Us",
+          "link": ""
+        }
+      ]
+    },
+
+    "terms": [
+      {
+        "text": "About Hyve Group",
+        "link": ""
+      },
+      {
+        "text": "Privacy Notice",
+        "link": ""
+      },
+      {
+        "text": "Cookie Policy",
+        "link": ""
+      },
+      {
+        "text": "Terms of Use",
+        "link": ""
+      },
+      {
+        "text": "Terms of Attendance & Participation",
+        "link": ""
+      },
+      {
+        "text": "Copyright 2025",
+        "link": ""
+      },
+      {
+        "text": "Fairguide Warning",
+        "link": ""
+      },
+      {
+        "text": "Code of Conduct",
+        "link": ""
+      },
+      {
+        "text": "Sitemap",
+        "link": ""
+      }
+    ]
   }
 }

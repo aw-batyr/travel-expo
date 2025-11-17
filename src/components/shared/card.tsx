@@ -6,22 +6,17 @@ interface Props {
   img: string;
   title: string;
   description: string;
-  button: string;
-  link?: string;
+  button: {
+    text: string;
+    link?: string;
+  };
 }
 
-export const Card = ({
-  className,
-  img,
-  title,
-  description,
-  button,
-  link,
-}: Props) => {
+export const Card = ({ className, img, title, description, button }: Props) => {
   return (
     <article
       className={clsx(
-        "relative z-10 flex flex-col gap-11 rounded-[40px] overflow-hidden bg-white drop-shadow-sm",
+        "relative z-10 flex flex-col gap-11 rounded-[30px] overflow-hidden bg-secondary text-background drop-shadow-sm",
         className
       )}
     >
@@ -32,8 +27,8 @@ export const Card = ({
         <p className="p">{description}</p>
       </div>
 
-      <Link to={link ?? ""} className="px-10 pb-10">
-        <button className="button-white">{button}</button>
+      <Link to={button.link ?? ""} className="px-10 pb-10">
+        <button className="button-white">{button.text}</button>
       </Link>
     </article>
   );

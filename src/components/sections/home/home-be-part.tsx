@@ -1,19 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Card } from "../../shared";
+import type { CardType } from "./home-attend";
 
-export interface CardType {
-  title: string;
-  description: string;
-  button: {
-    text: string;
-    link?: string;
-  };
-}
-
-export const HomeAttend = () => {
+export const HomeBePart = () => {
   const { t } = useTranslation("home");
 
-  const data = t("attend", { returnObjects: true }) as {
+  const data = t("be-part", { returnObjects: true }) as {
     title: string;
     cards: CardType[];
   };
