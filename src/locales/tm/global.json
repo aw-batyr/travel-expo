@@ -2,26 +2,26 @@
   "header": {
     "nav": [
       {
-        "text": "Программа мероприятия ",
+        "text": "Programmanyň mazmuny",
         "link": ""
       },
       {
-        "text": "Посетителям",
+        "text": "Myhmanlar üçin",
         "link": ""
       },
       {
-        "text": "Экспонентам и спонсорам",
+        "text": "Gatnaşyjylar we hemaýatkärler üçin",
         "link": ""
       },
       {
-        "text": "Медиа-центр",
+        "text": "Media merkezi",
         "link": ""
       }
     ],
 
     "buttons": [
       {
-        "text": "Подать заявку на участие как экспонент",
+        "text": "Gatnaşmak üçin ýüz tutmak",
         "link": ""
       }
     ]

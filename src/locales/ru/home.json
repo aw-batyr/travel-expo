@@ -1,68 +1,71 @@
 {
   "hero": {
-    "title": "Turkmen Travel International Exhibition",
-    "description": "'Turkmen Travel' is an international exhibition dedicated to the development of tourism in Turkmenistan, held in Ashgabat. It brings together travel agencies, hotels, airlines, and tour operators from around the world to present tourist destinations, develop partnerships, and promote the country's cultural and natural attractions.",
+    "title": "Международная Туристическая Выставка “Turkmentravel  Expo -2026”",
+    "description": "«Turkmen Travel» — международная выставка, посвящённая развитию туризма в Туркменистане, проходящая в Ашхабаде. Она объединяет туристические агентства, гостиницы, авиакомпании и туроператоров со всего мира для презентации туристических направлений, развития партнёрств и продвижения культурных и природных достопримечательностей страны.",
     "buttons": [
       {
-        "text": "Get my ticket",
-        "link": ""
-      },
-      {
-        "text": "Enquire to exhibit",
+        "text": "Подать заявку на участие",
         "link": ""
       }
-    ]
+    ],
+
+    "moveText": "СКИДКА ПРИ РАННЕЙ РЕГИСТРАЦИИ! РЕГИСТРИРУЙТЕСЬ СЕГОДНЯ"
   },
 
   "about": {
     "stats": [
       {
-        "title": "35,000",
-        "description": "Global education community attendees"
+        "title": "10,000 м2",
+        "description": "Площадь"
       },
       {
-        "title": "35,000",
-        "description": "Countries represented"
+        "title": "10000 +",
+        "description": "Ожидаемых посетителей "
       },
       {
-        "title": "35,000",
+        "title": "100+",
         "description": "Companies exhibiting"
       },
       {
-        "title": "35,000",
+        "title": "80%",
         "description": "World class speakers"
       }
     ],
 
-    "title": "Turkmen Travel International Exhibition Registration is now",
+    "title": "Кому стоит посетить TurkmenTravel Expo-2026?",
     "button": {
-      "text": "Enquire to exhibit",
+      "text": "Подать заявку на участие",
       "link": ""
     }
   },
 
   "attend": {
-    "title": "Who should attend Turkmen Travel  2026?",
+    "title": "Кому стоит посетить TurkmenTravel Expo-2026?",
 
     "cards": [
       {
-        "title": "Travel Agencies & Tour Operators",
-        "description": "Discover exclusive Silk Road routes, Avaza beach packages, and partner with local operators to create unique Central Asian itineraries for your clients.",
+        "title": "Туристические агентства и Операторы",
+        "description": "Для продвижения своих туров, поиска новых маршрутов, налаживания партнёрств и участия в международных туристических проектах (включая направления: Silk Road, Cultural Tourism, Agro Tourism).",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Hotels & Resorts",
-        "description": "Showcase your property to international buyers and explore joint ventures in Turkmenistan’s expanding eco-lodge and wellness tourism sectors.",
+        "title": "Гостиницы, санатории и курортные комплексы",
+        "description": "Для презентации новых услуг, wellness-программ, лечебно-оздоровительных туров и привлечения туристических компаний.",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Airlines & Transport Providers",
-        "description": ".Connect with tourism boards to promote new flight routes and seamless ground transfers linking Europe, Asia, and the Middle East via Ashgabat.",
+        "title": "Авиакомпании и транспортные компании",
+        "description": "Для продвижения своих услуг, открытия новых направлений и сотрудничества с туроператорами и государственными структурами.",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Travel Bloggers & Influencers",
-        "description": "Get first-hand access to hidden gems like the Darvaza Gas Crater and ancient Merv—perfect for creating viral content and sponsored collaborations.",
+        "title": "Рестораны, производители продуктов и гастро-бренды  ",
+        "description": "Для участия в Food Expo — презентация национальной кухни, гастрономических туров, локальных продуктов.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Культурные центры, музеи, мастера народных ремёсел",
+        "description": "Для продвижения сувенирной продукции, национальной культуры, традиций и ремёсел.",
         "button": { "text": "Discover more", "link": "" }
       }
     ]
@@ -78,23 +81,54 @@
   },
 
   "be-part": {
-    "title": "Be part of Turkmen Travel  2026?",
+    "title": "Стать частью TurkmenTravel Expo 2026",
     "cards": [
       {
-        "title": "Why visit?",
-        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "title": "Почему посетить?",
+        "description": [
+          "Откройте новые направления и маршруты — знакомьтесь с туристическими возможностями по всему миру, включая Silk Road Tourism.",
+          "Найдите надёжных партнёров — встречайтесь с авиакомпаниями, отелями, туроператорами, wellness-центрами и образовательными учреждениями.",
+          "Изучите последние тренды туризма — инновации, технологии, медицинский и экологический туризм, гастро- и агротуризм.",
+          "Получите уникальный опыт и идеи — участвуйте в презентациях, встречах и живых демонстрациях от мировых компаний.",
+          "Развивайте свой бизнес или карьеру — новые знания, новые контакты, новые возможности."
+        ],
         "button": {
           "text": "Discover more",
           "link": ""
         }
       },
       {
-        "title": "Why visit?",
-        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "title": "Почему участвовать как экспонент?",
+        "description": [
+          "Продвигайте свои услуги на международном уровне — ваша компания будет видеть туристическая индустрия всей Центральной Азии.",
+          "Налаживайте прямые партнёрства — встречи с туроператорами, инвесторами, государственными структурами и бизнесом.",
+          "Привлекайте клиентов и расширяйте рынок — покажите продукты, услуги, маршруты и программы тысячам потенциальных клиентов.",
+          "Укрепляйте бренд и доверие — участие в крупной международной выставке повышает статус и узнаваемость вашей компании.",
+          "Получайте доступ к инвестиционным и бизнес-возможностям — инфраструктура, туризм, образование, медицина и технологии."
+        ],
         "button": {
           "text": "Discover more",
           "link": ""
         }
+      }
+    ]
+  },
+
+  "news": {
+    "title": "News",
+
+    "data": [
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
       }
     ]
   }

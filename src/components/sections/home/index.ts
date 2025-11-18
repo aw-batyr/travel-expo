@@ -3,3 +3,4 @@ export { HomeMain } from "./home-main";
 export { HomeAttend } from "./home-attend";
 export { HomeEnquire } from "./home-enquire";
 export { HomeBePart } from "./home-be-part";
+export { HomeNews } from "./home-news";

@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
+import { LangMenu } from "../shared";
 
 export const Header = () => {
   const { t } = useTranslation("global");
@@ -10,10 +11,12 @@ export const Header = () => {
     link: string;
   }[];
 
+  console.log(nav);
+
   const buttons = t("header.buttons", { returnObjects: true }) as typeof nav;
 
   return (
-    <header className="fixed z-30 left-0 top-0 right-0 h-22 bg-background">
+    <header className="fixed z-30 left-0 top-0 right-0 h-22 bg-background drop-shadow-sm">
       <div className="max-w-435 mx-auto flex items-center justify-between px-6 py-4">
         <div className="h-14 w-auto">
           <img src="/logo.svg" alt="" />
@@ -29,6 +32,8 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
+
+          <LangMenu />
 
           <div className="flex items-center gap-6">
             {buttons.map((item, i) => (

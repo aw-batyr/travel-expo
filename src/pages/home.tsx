@@ -4,6 +4,7 @@ import {
   HomeEnquire,
   HomeHero,
   HomeMain,
+  HomeNews,
 } from "../components/sections/home";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeAttend />
       <HomeEnquire />
       <HomeBePart />
+      <HomeNews />
     </div>
   );
 }

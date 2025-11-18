@@ -1,36 +1,34 @@
 {
   "hero": {
-    "title": "Turkmen Travel International Exhibition",
-    "description": "'Turkmen Travel' is an international exhibition dedicated to the development of tourism in Turkmenistan, held in Ashgabat. It brings together travel agencies, hotels, airlines, and tour operators from around the world to present tourist destinations, develop partnerships, and promote the country's cultural and natural attractions.",
+    "title": "“Turkmentravel  Expo -2026”  International Exhibition",
+    "description": "'Turkmen Travel' is an international exhibition dedicated to the development of tourism in Turkmenistan, held in Ashgabat. It brings together travel agencies, hotels, airlines, and tour operators from around the world to present tourist destinations, develop partnerships, and promote the country’s cultural and natural attractions.",
     "buttons": [
-      {
-        "text": "Get my ticket",
-        "link": ""
-      },
       {
         "text": "Enquire to exhibit",
         "link": ""
       }
-    ]
+    ],
+
+    "moveText": "EARLY BIRD DISCOUNT! REGISTER TODAY"
   },
 
   "about": {
     "stats": [
       {
-        "title": "35,000",
-        "description": "Global education community attendees"
+        "title": "10,000 м2",
+        "description": "Exhibition area"
       },
       {
-        "title": "35,000",
-        "description": "Countries represented"
+        "title": "1000+",
+        "description": "Expected visitors"
       },
       {
-        "title": "35,000",
-        "description": "Companies exhibiting"
+        "title": "100+",
+        "description": "Exhibitors from over 30 countries"
       },
       {
-        "title": "35,000",
-        "description": "World class speakers"
+        "title": "80%",
+        "description": "Participants are top-management"
       }
     ],
 
@@ -42,27 +40,32 @@
   },
 
   "attend": {
-    "title": "Who should attend Turkmen Travel  2026?",
+    "title": "Who should attend Turkmen Travel - 2026?",
 
     "cards": [
       {
         "title": "Travel Agencies & Tour Operators",
-        "description": "Discover exclusive Silk Road routes, Avaza beach packages, and partner with local operators to create unique Central Asian itineraries for your clients.",
+        "description": "To promote their tours, advertise new routes, establish partnerships, and participate in international tourism projects (including Silk Road, Cultural Tourism, Agro Tourism).",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Hotels & Resorts",
-        "description": "Showcase your property to international buyers and explore joint ventures in Turkmenistan’s expanding eco-lodge and wellness tourism sectors.",
+        "title": "Airlines and Transport Providers",
+        "description": "To promote services, expand flight networks, and build partnerships with tour operators and government institutions.",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Airlines & Transport Providers",
-        "description": ".Connect with tourism boards to promote new flight routes and seamless ground transfers linking Europe, Asia, and the Middle East via Ashgabat.",
+        "title": "Hotels, Resorts, and Wellness Centers",
+        "description": "To present accommodation services, wellness programs, health retreats, and attract tourism companies.",
         "button": { "text": "Discover more", "link": "" }
       },
       {
-        "title": "Travel Bloggers & Influencers",
-        "description": "Get first-hand access to hidden gems like the Darvaza Gas Crater and ancient Merv—perfect for creating viral content and sponsored collaborations.",
+        "title": "Restaurants, Food Producers, and Gastro Brands",
+        "description": "To participate in the Food Expo, showcase national cuisine, gastronomic tours, and local products.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Cultural Centers, Museums, and Craft Masters",
+        "description": "For promoting cultural heritage, souvenir products, handicrafts, and traditional arts.",
         "button": { "text": "Discover more", "link": "" }
       }
     ]
@@ -82,7 +85,13 @@
     "cards": [
       {
         "title": "Why visit?",
-        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "description": [
+          "Discover new destinations and routes across Turkmenistan, Central Asia, and the Silk Road region.",
+          "Meet reliable partners — airlines, hotels, tour operators, wellness centers, and education providers.",
+          "Explore the latest tourism trends — medical, agro, eco, cultural, and gastro tourism.",
+          "Gain fresh ideas and inspiration through presentations, workshops, and live demonstrations.",
+          "Grow your business or career with new contacts and opportunities."
+        ],
         "button": {
           "text": "Discover more",
           "link": ""
@@ -90,11 +99,36 @@
       },
       {
         "title": "Why visit?",
-        "description": "Explore the highest quality EdTech, take part in world leading demos and collaborate with industry leaders during three days of EdTech excellence.  Bett UK 2026 is a must-attend event with the power to make a genuine impact on the lives of teachers and learners.",
+        "description": [
+          "Showcase your services internationally and reach a wide tourism audience in Central Asia.",
+          "Build strong partnerships with tour operators, investors, ministries, and industry leaders.",
+          "Attract new clients and expand your market by presenting your products and programs.",
+          "Strengthen your brand and credibility by being part of a major international event.",
+          "Access business and investment opportunities across tourism, education, healthcare, agriculture, and technology."
+        ],
         "button": {
           "text": "Discover more",
           "link": ""
         }
+      }
+    ]
+  },
+
+  "news": {
+    "title": "News",
+
+    "data": [
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
       }
     ]
   }

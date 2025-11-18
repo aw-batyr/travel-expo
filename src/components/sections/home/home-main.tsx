@@ -41,7 +41,7 @@ export const HomeMain = () => {
       <div className="relative h-[442px] w-full overflow-hidden">
         <img src="/home/main-bg.jpg" alt="" className="absolute top-0 left-0" />
 
-        <div className="relative bg-white/75 top-1/2 left-10 p-10 -translate-y-1/2 w-[45%]">
+        <div className="relative bg-white top-1/2 left-10 p-10 -translate-y-1/2 w-[45%]">
           <h2 className="text-4xl leading-[130%] text-on-background mb-5">
             {data.title}
           </h2>

@@ -5,7 +5,7 @@ interface Props {
   className?: string;
   img: string;
   title: string;
-  description: string;
+  description: string | string[];
   button: {
     text: string;
     link?: string;
@@ -24,7 +24,17 @@ export const Card = ({ className, img, title, description, button }: Props) => {
 
       <div className="flex flex-col gap-5 px-10">
         <h3 className="h3">{title}</h3>
-        <p className="p">{description}</p>
+        {Array.isArray(description) ? (
+          <ul className="list-disc ml-5">
+            {description.map((item, i) => (
+              <li key={i} className="font-light text-lg">
+                {item}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="p">{description}</p>
+        )}
       </div>
 
       <Link to={button.link ?? ""} className="px-10 pb-10">

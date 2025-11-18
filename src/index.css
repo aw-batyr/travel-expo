@@ -81,12 +81,12 @@
 }
 
 .marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 40s linear infinite;
 }
 
 .marquee2 {
   position: absolute;
   top: 0;
   left: -40px;
-  animation: marquee2 30s linear infinite;
+  animation: marquee2 40s linear infinite;
 }

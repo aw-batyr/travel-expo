@@ -3,7 +3,7 @@ import { Card } from "../../shared";
 
 export interface CardType {
   title: string;
-  description: string;
+  description: string | string[];
   button: {
     text: string;
     link?: string;

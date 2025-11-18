@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "title": "Halkara “Turkmentravel  Expo -2026”  syýahatçylyk sergisi",
+    "description": "«Turkmen Travel» — Türkmenistanda syýahatçylygy ösdürmäge bagyşlanan halkara sergi bolup, Aşgabat şäherinde geçirilýär. Sergi dünýäniň dürli ýurtlaryndan syýahatçylyk agentliklerini, myhmanhanalary, awiakompaniýalary we syýahatçylyk operatorlaryny birleşdirip, täze syýahat ugurlaryny giňden tanatmak, hyzmatdaşlyklary ösdürmek hem-de ýurduň medeni we tebigy gözelliklerini wagyz etmek üçin giň mümkinçilik döredýär.",
+    "buttons": [
+      {
+        "text": "Gatnaşmak üçin ýüz tutmak",
+        "link": ""
+      }
+    ],
+
+    "moveText": "IŇ ILKI REGISTRASIÝA EDENLER ÜÇIN ARZANLADYŞ! BUGÜN REGISTRASIÝA BOLUŇ"
+  },
+
+  "about": {
+    "stats": [
+      {
+        "title": "35,000",
+        "description": "Global education community attendees"
+      },
+      {
+        "title": "35,000",
+        "description": "Countries represented"
+      },
+      {
+        "title": "35,000",
+        "description": "Companies exhibiting"
+      },
+      {
+        "title": "35,000",
+        "description": "World class speakers"
+      }
+    ],
+
+    "title": "Turkmen Travel International Exhibition Registration is now",
+    "button": {
+      "text": "Enquire to exhibit",
+      "link": ""
+    }
+  },
+
+  "attend": {
+    "title": "Who should attend Turkmen Travel  2026?",
+
+    "cards": [
+      {
+        "title": "Syýahatçylyk agentlikleri we operatorlar",
+        "description": "Täze ugurlary tanatmak, hyzmatdaş tapmak, öz hyzmatlaryny halkara derejede ösdürmek üçin (Ýüpek ýoly, Medeni, Agro syýahatçylyk ugurlary goşulýar).",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Myhmanhanalar, şypahanalar we dynç alyş merkezleri",
+        "description": "Wellness, dynç alyş, sagaldyş hyzmatlaryny tanatmak we syýahatçylyk kompaniýalary bilen hyzmatdaşlyk guramak üçin.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Awiakompaniýalar we transport üpjün edijiler",
+        "description": "Uçuş ugurlaryny ösdürmek, hyzmatdaş tapmak we täze bazarlara çykmak üçin.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Restoranlar, azyk öndürijiler we gastro-brendler",
+        "description": "Food Expo üçin — milli tagamlary, ýerli önümleri, gastro-syýahatçylygy tanatmak.",
+        "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Medeni merkezler, muzeýler we halk sungatynyň ussatlary",
+        "description": "Sowgatlyk Önümlerini, milli mirasy we däp-dessurlary tanatmak üçin.",
+        "button": { "text": "Discover more", "link": "" }
+      }
+    ]
+  },
+
+  "enquire": {
+    "title": "Get the Bett Buzz all year round!",
+    "description": "Enjoy a snapshot of industry news, must-views and exclusive updates about News 2026 when you sign up to our monthly newsletter.",
+    "button": {
+      "text": "Subscribe Now",
+      "link": ""
+    }
+  },
+
+  "be-part": {
+    "title": "TurkmenTravel Expo 2026-nyň bir bölegi boluň",
+    "cards": [
+      {
+        "title": "Näme üçin gitmeli?",
+        "description": [
+          "Täze syýahat ugurlaryny açyň — Türkmenistan, Merkezi Aziýa we Ýüpek ýoly boýunça.",
+          "Ýaramly hyzmatdaş tapyň — awiakompaniýalar, myhmanhanalar, syýahatçylyk operatorlary, sagaldyş merkezleri.",
+          "Syýahatçylygyň häzirki täzelikleri bilen tanyşyň — lukmançylyk, agro, eko, medeni we gastro syýahatçylyk.",
+          "Täze pikirler we höwes alyň — çykyşlar, duşuşyklar, tanyşdyryşlar arkaly.",
+          "Biznesiňizi ösdürmegiň mümkinçilikleri- täze tanyşyklar, täze pikirler, täze mümkinçilikler."
+        ],
+        "button": {
+          "text": "Discover more",
+          "link": ""
+        }
+      },
+      {
+        "title": "Näme üçin sergä gatnaşyjy bolmaly?",
+        "description": [
+          "Hyzmatlaryňyzy halkara derejede tanadyň — Merkezi Aziýanyň giň syýahatçylyk bazary size açyk.",
+          "Pelekdeş hyzmatdaşlar bilen gatnaşyk guryň — syýahatçylyk operatorlary, maýadarlar, degişli ministrlikler.",
+          "Täze müşderiler çekin we bazaryňyzy giňeldiň — hyzmatlaryňyzy we programmalaryňyzy görkezmek arkaly.",
+          "Brendiňizi güýçlendiriň — iri halkara sergä gatnaşmak abraýy ýokarlandyrýar.",
+          "Biznes we maýa goýum mümkinçiliklerine çykmak — syýahatçylyk, bilim, saglyk, oba hojalygy we tehnologiýa ugurlarynda."
+        ],
+        "button": {
+          "text": "Discover more",
+          "link": ""
+        }
+      }
+    ]
+  },
+
+  "news": {
+    "title": "News",
+
+    "data": [
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      },
+      {
+        "date": "12 January",
+        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+      }
+    ]
+  }
+}

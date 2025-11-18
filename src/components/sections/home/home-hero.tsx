@@ -11,6 +11,7 @@ export const HomeHero = () => {
   }) as {
     title: string;
     description: string;
+    moveText: string;
     buttons: {
       text: string;
       link: string;
@@ -27,20 +28,14 @@ export const HomeHero = () => {
         />
 
         <div className="container relative top-10 left-0">
-          <div className="w-150 p-10 bg-white/75">
-            <h1 className="h1 mb-3 text-black">
-              <span className="text-secondary">Turkmen Travel </span>
-              International Exhibition
-            </h1>
+          <div className="w-220 p-10 bg-white">
+            <h1 className="h1 mb-3 text-black">{data.title}</h1>
 
             <p className="p">{data.description}</p>
 
             <div className=" relative z-10 flex items-center gap-4 mt-10">
               {data.buttons.map((item, i) => (
-                <button
-                  key={i}
-                  className={clsx(i === 0 ? "button-white" : "button-primary")}
-                >
+                <button key={i} className={clsx("button-secondary")}>
                   <Link to={item.link} key={item.text}>
                     {item.text}
                   </Link>
@@ -53,8 +48,8 @@ export const HomeHero = () => {
 
       <div className="flex items-center gap-10 bg-primary select-none py-4 text-white whitespace-nowrap text-2xl overflow-hidden">
         <Marquee>
-          <span>EDUCATORS GO FREE! REGISTER TODAY</span>
-          <span>EDUCATORS GO FREE! REGISTER TODAY</span>
+          <span>{data.moveText}</span>
+          <span>{data.moveText}</span>
         </Marquee>
       </div>
     </section>
