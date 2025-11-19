@@ -23,17 +23,17 @@ const i18nOptions: InitOptions = {
 i18n.use(initReactI18next).init(i18nOptions);
 
 function App() {
-  const { locale } = useLang();
+  const value = useLang((state) => state.locale.value);
 
   useEffect(() => {
-    if (locale.value && i18n.language !== locale.value) {
-      i18n.changeLanguage(locale.value);
+    if (value && i18n.language !== value) {
+      i18n.changeLanguage(value);
     }
-  }, [locale.value]);
+  }, [value]);
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden bg-background">
-      <div className="w-full h-22 bg-transparent" />
+      <div className="w-full h-21 bg-transparent" />
       <Header />
 
       <main className="flex-auto">

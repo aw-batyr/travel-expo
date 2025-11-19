@@ -1,3 +1,3 @@
 export const HomePartners = () => {
-  return <section className="container py-20"></section>;
+  return <section className="container "></section>;
 };

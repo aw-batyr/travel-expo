@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 import { LangMenu } from "../shared";
+import { Burger } from "./";
 
 export const Header = () => {
   const { t } = useTranslation("global");
@@ -16,13 +17,19 @@ export const Header = () => {
   const buttons = t("header.buttons", { returnObjects: true }) as typeof nav;
 
   return (
-    <header className="fixed z-30 left-0 top-0 right-0 h-22 bg-background drop-shadow-sm">
-      <div className="max-w-435 mx-auto flex items-center justify-between px-6 py-4">
-        <div className="h-14 w-auto">
-          <img src="/logo.svg" alt="" />
+    <header className="fixed z-50 left-0 top-0 right-0 h-21 bg-background drop-shadow-sm">
+      <div className="max-w-435 mx-auto flex items-center justify-between px-4 py-4">
+        <div className="xl:h-15 h-10 w-auto flex items-center justify-center overflow-hidden">
+          <img src="/logo.svg" alt="" className="size-full object-cover" />
         </div>
 
-        <div className="flex items-center gap-12 ">
+        <div className="flex items-center gap-4 lg:hidden">
+          <LangMenu />
+
+          <Burger />
+        </div>
+
+        <div className="hidden lg:flex items-center 2xl:gap-12 gap-3">
           <nav>
             <ul className="flex items-center gap-6">
               {nav.map((item) => (
@@ -32,6 +39,8 @@ export const Header = () => {
               ))}
             </ul>
           </nav>
+
+          <div className="h-5 w-px bg-black/20" />
 
           <LangMenu />
 

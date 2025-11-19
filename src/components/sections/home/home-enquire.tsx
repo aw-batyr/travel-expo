@@ -8,8 +8,8 @@ export const HomeEnquire = () => {
   const data = t("enquire", { returnObjects: true }) as CardType;
 
   return (
-    <section className="py-20 container">
-      <div className="h-100 relative py-20 overflow-hidden">
+    <section className=" container">
+      <div className="h-100 relative  overflow-hidden">
         <img
           src="/home/require.jpg"
           className="absolute top-0 left-0 size-full object-cover"

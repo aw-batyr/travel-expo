@@ -22,8 +22,8 @@ export const HomeMain = () => {
   };
 
   return (
-    <section className="container flex flex-col gap-20 py-20">
-      <div className="flex items-center justify-between gap-16">
+    <section className="container flex flex-col gap-20 ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-5 sm:gap-10 xl:gap-16">
         {data.stats.map((item, i) => (
           <article
             key={item.description}
@@ -32,17 +32,23 @@ export const HomeMain = () => {
             <img src={`/icons/stats/${i + 1}.svg`} alt="" />
             <div>
               <h3 className="text-2xl">{item.title}</h3>
-              <p className="text-base font-light">{item.description}</p>
+              <p className="sm:text-base text-sm font-light">
+                {item.description}
+              </p>
             </div>
           </article>
         ))}
       </div>
 
-      <div className="relative h-[442px] w-full overflow-hidden">
-        <img src="/home/main-bg.jpg" alt="" className="absolute top-0 left-0" />
+      <div className="relative min-h-[442px] w-full overflow-hidden">
+        <img
+          src="/home/main-bg.jpg"
+          alt=""
+          className="absolute top-0 left-0 size-full object-cover"
+        />
 
-        <div className="relative bg-white top-1/2 left-10 p-10 -translate-y-1/2 w-[45%]">
-          <h2 className="text-4xl leading-[130%] text-on-background mb-5">
+        <div className="relative z-10 bg-white top-10 lg:top-16 left-10 p-10 w-[80%] md:w-[45%]">
+          <h2 className="lg:text-4xl text-2xl leading-[130%] text-on-background mb-5">
             {data.title}
           </h2>
           <Link to={data.button.link ?? ""}>

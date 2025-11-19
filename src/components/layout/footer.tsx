@@ -111,8 +111,11 @@ export const Footer = () => {
   return (
     <footer className="bg-secondary text-background">
       <div className="container flex flex-col gap-10 pt-10 pb-14 text-sm">
-        <div className="flex justify-between">
-          <img src="/light-logo.svg" />
+        <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+          <img
+            src="/light-logo.svg"
+            className="h-auto md:w-60 w-50 object-cover"
+          />
 
           <div className="flex items-center gap-6">
             {socials.map((item, i) => (

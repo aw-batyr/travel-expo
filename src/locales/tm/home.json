@@ -4,69 +4,74 @@
     "description": "«Turkmen Travel» — Türkmenistanda syýahatçylygy ösdürmäge bagyşlanan halkara sergi bolup, Aşgabat şäherinde geçirilýär. Sergi dünýäniň dürli ýurtlaryndan syýahatçylyk agentliklerini, myhmanhanalary, awiakompaniýalary we syýahatçylyk operatorlaryny birleşdirip, täze syýahat ugurlaryny giňden tanatmak, hyzmatdaşlyklary ösdürmek hem-de ýurduň medeni we tebigy gözelliklerini wagyz etmek üçin giň mümkinçilik döredýär.",
     "buttons": [
       {
-        "text": "Gatnaşmak üçin ýüz tutmak",
+        "text": "Ýüz tutmak",
         "link": ""
       }
     ],
 
-    "moveText": "IŇ ILKI REGISTRASIÝA EDENLER ÜÇIN ARZANLADYŞ! BUGÜN REGISTRASIÝA BOLUŇ"
+    "moveText": "REGISTRASIÝA EDENLER ÜÇIN ARZANLADYŞ! BUGÜN REGISTRASIÝA "
   },
 
   "about": {
     "stats": [
       {
-        "title": "35,000",
-        "description": "Global education community attendees"
+        "title": "10,000 m²",
+        "description": "Sergi meýdançasy"
       },
       {
-        "title": "35,000",
-        "description": "Countries represented"
+        "title": "10,000+",
+        "description": "Garaşylýan myhmanlar"
       },
       {
-        "title": "35,000",
-        "description": "Companies exhibiting"
+        "title": "100+",
+        "description": "30-dan gowrak ýurtdan sergi"
       },
       {
-        "title": "35,000",
-        "description": "World class speakers"
+        "title": "80%",
+        "description": "Iň ýokary dolandyryş gatnaşyjylary"
       }
     ],
 
-    "title": "Turkmen Travel International Exhibition Registration is now",
+    "title": "TurkmenTravel Expo-2026-a gatnaşmaly taraplar kimler?",
     "button": {
-      "text": "Enquire to exhibit",
+      "text": "Ýüz tutmak",
       "link": ""
     }
   },
 
   "attend": {
-    "title": "Who should attend Turkmen Travel  2026?",
+    "title": "TurkmenTravel Expo-2026-a gatnaşmaly taraplar kimler?",
 
     "cards": [
       {
         "title": "Syýahatçylyk agentlikleri we operatorlar",
         "description": "Täze ugurlary tanatmak, hyzmatdaş tapmak, öz hyzmatlaryny halkara derejede ösdürmek üçin (Ýüpek ýoly, Medeni, Agro syýahatçylyk ugurlary goşulýar).",
-        "button": { "text": "Discover more", "link": "" }
+        "button": { "text": "Has köp", "link": "" }
       },
       {
         "title": "Myhmanhanalar, şypahanalar we dynç alyş merkezleri",
         "description": "Wellness, dynç alyş, sagaldyş hyzmatlaryny tanatmak we syýahatçylyk kompaniýalary bilen hyzmatdaşlyk guramak üçin.",
-        "button": { "text": "Discover more", "link": "" }
+        "button": { "text": "Has köp", "link": "" }
       },
       {
         "title": "Awiakompaniýalar we transport üpjün edijiler",
         "description": "Uçuş ugurlaryny ösdürmek, hyzmatdaş tapmak we täze bazarlara çykmak üçin.",
-        "button": { "text": "Discover more", "link": "" }
+        "button": { "text": "Has köp", "link": "" }
       },
       {
         "title": "Restoranlar, azyk öndürijiler we gastro-brendler",
         "description": "Food Expo üçin — milli tagamlary, ýerli önümleri, gastro-syýahatçylygy tanatmak.",
-        "button": { "text": "Discover more", "link": "" }
+        "button": { "text": "Has köp", "link": "" }
       },
       {
         "title": "Medeni merkezler, muzeýler we halk sungatynyň ussatlary",
         "description": "Sowgatlyk Önümlerini, milli mirasy we däp-dessurlary tanatmak üçin.",
-        "button": { "text": "Discover more", "link": "" }
+        "button": { "text": "Has köp", "link": "" }
+      },
+      {
+        "title": "Bilim edaralary",
+        "description": "Uniwersitetler, kollejler, bilim merkezleri — halkara talyplary çekmek, bilim syýahatçylygyny ösdürmek üçin.",
+        "button": { "text": "Has köp", "link": "" }
       }
     ]
   },
@@ -81,7 +86,7 @@
   },
 
   "be-part": {
-    "title": "TurkmenTravel Expo 2026-nyň bir bölegi boluň",
+    "title": "TurkmenTravel Expo 2026-nyň bir bölegi boluňö",
     "cards": [
       {
         "title": "Näme üçin gitmeli?",
@@ -90,10 +95,10 @@
           "Ýaramly hyzmatdaş tapyň — awiakompaniýalar, myhmanhanalar, syýahatçylyk operatorlary, sagaldyş merkezleri.",
           "Syýahatçylygyň häzirki täzelikleri bilen tanyşyň — lukmançylyk, agro, eko, medeni we gastro syýahatçylyk.",
           "Täze pikirler we höwes alyň — çykyşlar, duşuşyklar, tanyşdyryşlar arkaly.",
-          "Biznesiňizi ösdürmegiň mümkinçilikleri- täze tanyşyklar, täze pikirler, täze mümkinçilikler."
+          "Biznesiňizi ösdürmegiň mümkinçilikleri- täze tanyşyklar, täze pikirler, täzöe mümkinçilikler."
         ],
         "button": {
-          "text": "Discover more",
+          "text": "Has köp",
           "link": ""
         }
       },
@@ -107,7 +112,7 @@
           "Biznes we maýa goýum mümkinçiliklerine çykmak — syýahatçylyk, bilim, saglyk, oba hojalygy we tehnologiýa ugurlarynda."
         ],
         "button": {
-          "text": "Discover more",
+          "text": "Has köp",
           "link": ""
         }
       }
@@ -115,21 +120,22 @@
   },
 
   "news": {
-    "title": "News",
+    "title": "Täzelikler",
 
     "data": [
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "14.11.2025",
+        "description": "Türkmenistanyň Prezidentiniň Özbegistana saparynyň çäginde serhetýaka söwda merkezini işe girizmek dabarasyny geçirmek meýilleşdirilýär"
       },
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "11.11.2025",
+        "description": "Aşgabatda meşhur polýak pianinoçysy Woýseh Waleçegiň konserti geçiriler"
       },
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "09.11.2025",
+        "description": "Russiýadan ilkinji ýük otlusy Gazagystanyň we Türkmenistanyň üstünden geçip Eýrana bilen bardy"
       }
-    ]
+    ],
+    "button": "Has köp"
   }
 }

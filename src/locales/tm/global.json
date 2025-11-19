@@ -2,7 +2,7 @@
   "header": {
     "nav": [
       {
-        "text": "Programmanyň mazmuny",
+        "text": "Biz barada",
         "link": ""
       },
       {
@@ -10,18 +10,18 @@
         "link": ""
       },
       {
-        "text": "Gatnaşyjylar we hemaýatkärler üçin",
+        "text": "Gatnaşyjylar we hemaýatkärler",
         "link": ""
       },
       {
-        "text": "Media merkezi",
+        "text": "Media",
         "link": ""
       }
     ],
 
     "buttons": [
       {
-        "text": "Gatnaşmak üçin ýüz tutmak",
+        "text": "Ýüz tutmak",
         "link": ""
       }
     ]

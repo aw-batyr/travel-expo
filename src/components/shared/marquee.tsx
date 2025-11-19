@@ -3,18 +3,15 @@ import type { PropsWithChildren } from "react";
 export const Marquee = ({ children }: PropsWithChildren) => {
   return (
     <div className="marquee-wrapper">
-      {/* Первый слой */}
       <div className="marquee">
-        {children}
-        {children}
-        {children}
+        <span>{children}</span>
+        <span>{children}</span>
+        <span>{children}</span>
       </div>
-
-      {/* Второй слой — бесконечный догоняющий */}
       <div className="marquee2">
-        {children}
-        {children}
-        {children}
+        <span>{children}</span>
+        <span>{children}</span>
+        <span>{children}</span>
       </div>
     </div>
   );

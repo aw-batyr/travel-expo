@@ -33,19 +33,19 @@
 }
 
 .h1 {
-  @apply text-[54px] leading-[110%];
+  @apply text-4xl lg:text-[54px] leading-[110%];
 }
 
 .h2 {
-  @apply text-[44px] leading-[130%];
+  @apply text-2xl lg:text-[44px] leading-[130%];
 }
 
 .h3 {
-  @apply text-[26px] leading-[120%];
+  @apply text-lg lg:text-[26px] leading-[120%];
 }
 
 .p {
-  @apply text-lg font-light;
+  @apply text-base lg:text-lg font-light;
 }
 
 @keyframes marquee {
@@ -87,6 +87,6 @@
 .marquee2 {
   position: absolute;
   top: 0;
-  left: -40px;
+  left: 0px;
   animation: marquee2 40s linear infinite;
 }

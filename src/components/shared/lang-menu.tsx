@@ -30,7 +30,7 @@ export const LangMenu: FC<Props> = ({ className }) => {
   const setLocale = useLang((state) => state.setLocale);
 
   return (
-    <div className={clsx("relative w-20", className)}>
+    <div className={clsx("relative w-13", className)}>
       <div
         onClick={() => setActive((prev) => !prev)}
         className={clsx("flex items-center gap-2 cursor-pointer")}
@@ -45,12 +45,13 @@ export const LangMenu: FC<Props> = ({ className }) => {
         initial={{ opacity: 0, y: -10, pointerEvents: "none" }}
         animate={active ? { opacity: 100, y: 0, pointerEvents: "auto" } : {}}
         transition={{ duration: 0.2, ease: "easeInOut" }}
-        className="absolute top-6 right-5 flex flex-col gap-2 bg-white py-2 w-16 text-left rounded-lg"
+        className="absolute top-6 right-0 z-50 flex flex-col gap-2 bg-white py-2 w-16 text-left rounded-lg"
       >
         {langs
           .filter((item) => item.value !== locale.value)
           .map((item) => (
             <div
+              key={item.value}
               onClick={() => {
                 setLocale(item);
                 setActive((prev) => !prev);

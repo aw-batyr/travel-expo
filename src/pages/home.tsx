@@ -1,7 +1,6 @@
 import {
   HomeAttend,
   HomeBePart,
-  HomeEnquire,
   HomeHero,
   HomeMain,
   HomeNews,
@@ -9,11 +8,10 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col lg:gap-40 gap-20 pb-20">
       <HomeHero />
       <HomeMain />
       <HomeAttend />
-      <HomeEnquire />
       <HomeBePart />
       <HomeNews />
     </div>

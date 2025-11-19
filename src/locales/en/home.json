@@ -67,6 +67,11 @@
         "title": "Cultural Centers, Museums, and Craft Masters",
         "description": "For promoting cultural heritage, souvenir products, handicrafts, and traditional arts.",
         "button": { "text": "Discover more", "link": "" }
+      },
+      {
+        "title": "Educational Institutions",
+        "description": "Universities, colleges, and training centers promoting educational tourism and attracting international students.",
+        "button": { "text": "Discover more", "link": "" }
       }
     ]
   },
@@ -98,7 +103,7 @@
         }
       },
       {
-        "title": "Why visit?",
+        "title": "Why exhibit?",
         "description": [
           "Showcase your services internationally and reach a wide tourism audience in Central Asia.",
           "Build strong partnerships with tour operators, investors, ministries, and industry leaders.",
@@ -119,17 +124,18 @@
 
     "data": [
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "14.11.2025",
+        "description": "The Opening of a Border Trade Center is Planned during Visit of the President of Turkmenistan to Uzbekistan."
       },
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "11.11.2025",
+        "description": "A Concert of the Famous Polish Pianist Wojciech Waleczek Will Be Held in Ashgabat"
       },
       {
-        "date": "12 January",
-        "description": "Rashid Meredov met with the Assistant Minister of Foreign Affairs of China in Ashgabat."
+        "date": "09.11.2025",
+        "description": "The First Freight Train from Russia Arrived in Iran via Kazakhstan and Turkmenistan"
       }
-    ]
+    ],
+    "button": "See more"
   }
 }
