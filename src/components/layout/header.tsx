@@ -17,7 +17,7 @@ export const Header = () => {
   const buttons = t("header.buttons", { returnObjects: true }) as typeof nav;
 
   return (
-    <header className="fixed z-50 left-0 top-0 right-0 h-21 bg-background drop-shadow-sm">
+    <header className="fixed z-50 left-0 top-0 right-0 h-24 bg-background drop-shadow-sm">
       <div className="max-w-435 mx-auto flex items-center justify-between px-4 py-4">
         <div className="xl:h-15 h-10 w-auto flex items-center justify-center overflow-hidden">
           <img src="/logo.svg" alt="" className="size-full object-cover" />

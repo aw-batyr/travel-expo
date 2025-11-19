@@ -28,7 +28,7 @@ export const HomeHero = () => {
         />
 
         <div className="container relative top-1/2 -translate-y-1/2 left-0">
-          <div className="lg:w-[80%] w-full p-5 lg:p-10 bg-white">
+          <div className="lg:w-[90%] w-full p-5 lg:p-10 bg-white">
             <h1 className="h1 mb-3 text-black">{data.title}</h1>
 
             <p className="p">{data.description}</p>

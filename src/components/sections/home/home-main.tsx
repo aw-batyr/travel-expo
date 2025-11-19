@@ -23,7 +23,7 @@ export const HomeMain = () => {
 
   return (
     <section className="container flex flex-col gap-20 ">
-      <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-5 sm:gap-10 xl:gap-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start justify-between gap-5 sm:gap-10 xl:gap-16">
         {data.stats.map((item, i) => (
           <article
             key={item.description}

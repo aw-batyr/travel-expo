@@ -98,8 +98,11 @@
 // };
 
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const { t } = useTranslation("global");
+
   const socials = [
     { icon: <Instagram fill="" />, link: "" },
     { icon: <Linkedin />, link: "" },
@@ -129,7 +132,7 @@ export const Footer = () => {
         <hr />
 
         <p className="text-base font-normal text-center">
-          ©2025 Все права защищены
+          ©2025 {t("footer.rights")}
         </p>
       </div>
     </footer>

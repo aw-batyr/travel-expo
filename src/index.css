@@ -33,7 +33,7 @@
 }
 
 .h1 {
-  @apply text-4xl lg:text-[54px] leading-[110%];
+  @apply text-4xl lg:text-5xl leading-[110%];
 }
 
 .h2 {
@@ -48,45 +48,32 @@
   @apply text-base lg:text-lg font-light;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  background: #ff008c;
 }
 
-@keyframes marquee2 {
-  0% {
+.marquee-track {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 30px;
+  flex-shrink: 0;
+  min-width: 60%; /* <-- ключевой момент */
+  padding-right: 40px;
+}
+
+@keyframes marquee {
+  from {
     transform: translateX(-100%);
   }
-  100% {
-    transform: translateX(0%);
+  to {
+    transform: translateX(0);
   }
-}
-
-.marquee-wrapper {
-  position: relative;
-  overflow: hidden;
-  white-space: nowrap;
-  display: flex;
-  gap: 10px;
-}
-
-.marquee,
-.marquee2 {
-  display: flex;
-  gap: 40px;
-}
-
-.marquee {
-  animation: marquee 40s linear infinite;
-}
-
-.marquee2 {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  animation: marquee2 40s linear infinite;
 }
