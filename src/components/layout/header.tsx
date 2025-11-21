@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className="fixed z-50 left-0 top-0 right-0 drop-shadow-sm">
-      <div className="h-12 bg-secondary text-white! flex items-center">
+      <div className="h-12 md:flex hidden bg-secondary text-white! items-center">
         <div className="container flex items-center justify-between text-xs font-normal">
           <div className="flex items-center justify-center gap-6">
             <div className="flex items-center gap-2">
