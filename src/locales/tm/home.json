@@ -137,5 +137,14 @@
       }
     ],
     "button": "Has köp"
+  },
+
+  "media": {
+    "title": "Media",
+    "button": "Has köp"
+  },
+
+  "partners": {
+    "title": "Hyzmatdaşlar"
   }
 }

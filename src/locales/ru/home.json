@@ -137,5 +137,14 @@
       }
     ],
     "button": "Больше"
+  },
+
+  "media": {
+    "title": "Media",
+    "button": "Больше"
+  },
+
+  "partners": {
+    "title": "Партнёры"
   }
 }

@@ -137,5 +137,15 @@
       }
     ],
     "button": "See more"
+  },
+
+  "media": {
+    "title": "Media",
+
+    "button": "See more"
+  },
+
+  "partners": {
+    "title": "Partners"
   }
 }

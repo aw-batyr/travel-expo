@@ -20,7 +20,7 @@ export const HomeNews = () => {
   ];
 
   return (
-    <section className="relative z-10 flex flex-col md:gap-20 gap-10 container">
+    <section className="relative z-10 flex flex-col gap-10 container">
       <h2 className="h2 text-center">{title}</h2>
 
       <div className="grid md:grid-cols-3 grid-cols-1 gap-6">
@@ -29,7 +29,9 @@ export const HomeNews = () => {
         ))}
       </div>
 
-      <button className="button-secondary w-fit mx-auto">{button}</button>
+      <button className="button-secondary w-fit mx-auto px-12!">
+        {button}
+      </button>
     </section>
   );
 };

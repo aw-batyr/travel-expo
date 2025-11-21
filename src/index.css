@@ -48,6 +48,13 @@
   @apply text-base lg:text-lg font-light;
 }
 
+.dot {
+  @apply size-1.5 rounded-full bg-white/50;
+}
+.dot-active {
+  @apply size-3 bg-white rounded-full;
+}
+
 .marquee-wrapper {
   overflow: hidden;
   width: 100%;
