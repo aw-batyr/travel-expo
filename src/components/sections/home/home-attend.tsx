@@ -10,6 +10,15 @@ export interface CardType {
   };
 }
 
+const photos = [
+  "/home/card-img.png",
+  "/cards/2.jpg",
+  "/home/card-img.png",
+  "/home/card-img.png",
+  "/cards/5.jpg",
+  "/home/card-img.png",
+];
+
 export const HomeAttend = () => {
   const { t } = useTranslation("home");
 
@@ -24,7 +33,7 @@ export const HomeAttend = () => {
 
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
         {data.cards.map((item, i) => (
-          <Card key={i} img="/home/card-img.png" {...item} />
+          <Card key={i} img={photos[i]} {...item} />
         ))}
       </div>
     </section>

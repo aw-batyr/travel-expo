@@ -41,7 +41,7 @@ export const Header = () => {
         </div>
       </div>
 
-      <div className="h-24 bg-background">
+      <div className="h-24 bg-background relative z-10">
         <div className="max-w-435 mx-auto flex items-center justify-between px-4 py-4">
           <div className="xl:h-15 h-10 w-auto flex items-center justify-center overflow-hidden">
             <img src="/logo.svg" alt="" className="size-full object-contain" />
