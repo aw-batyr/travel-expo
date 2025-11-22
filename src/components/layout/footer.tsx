@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           <img
             src="/light-logo.svg"
-            className="h-auto md:w-32 w-40 object-cover"
+            className="h-auto md:w-60 w-55 object-cover"
           />
 
           <div className="flex items-center gap-6">

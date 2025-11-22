@@ -46,32 +46,32 @@
       {
         "title": "Syýahatçylyk agentlikleri we operatorlar",
         "description": "Täze ugurlary tanatmak, hyzmatdaş tapmak, öz hyzmatlaryny halkara derejede ösdürmek üçin (Ýüpek ýoly, Medeni, Agro syýahatçylyk ugurlary goşulýar).",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       },
       {
         "title": "Myhmanhanalar, şypahanalar we dynç alyş merkezleri",
         "description": "Wellness, dynç alyş, sagaldyş hyzmatlaryny tanatmak we syýahatçylyk kompaniýalary bilen hyzmatdaşlyk guramak üçin.",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       },
       {
         "title": "Awiakompaniýalar we transport üpjün edijiler",
         "description": "Uçuş ugurlaryny ösdürmek, hyzmatdaş tapmak we täze bazarlara çykmak üçin.",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       },
       {
         "title": "Restoranlar, azyk öndürijiler we gastro-brendler",
         "description": "Food Expo üçin — milli tagamlary, ýerli önümleri, gastro-syýahatçylygy tanatmak.",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       },
       {
         "title": "Medeni merkezler, muzeýler we halk sungatynyň ussatlary",
         "description": "Sowgatlyk Önümlerini, milli mirasy we däp-dessurlary tanatmak üçin.",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       },
       {
         "title": "Bilim edaralary",
         "description": "Uniwersitetler, kollejler, bilim merkezleri — halkara talyplary çekmek, bilim syýahatçylygyny ösdürmek üçin.",
-        "button": { "text": "Has köp", "link": "" }
+        "button": { "text": "", "link": "" }
       }
     ]
   },
@@ -98,7 +98,7 @@
           "Biznesiňizi ösdürmegiň mümkinçilikleri- täze tanyşyklar, täze pikirler, täzöe mümkinçilikler."
         ],
         "button": {
-          "text": "Has köp",
+          "text": "",
           "link": ""
         }
       },
@@ -112,7 +112,7 @@
           "Biznes we maýa goýum mümkinçiliklerine çykmak — syýahatçylyk, bilim, saglyk, oba hojalygy we tehnologiýa ugurlarynda."
         ],
         "button": {
-          "text": "Has köp",
+          "text": "",
           "link": ""
         }
       }
@@ -136,12 +136,12 @@
         "description": "Russiýadan ilkinji ýük otlusy Gazagystanyň we Türkmenistanyň üstünden geçip Eýrana bilen bardy"
       }
     ],
-    "button": "Has köp"
+    "button": ""
   },
 
   "media": {
     "title": "Media",
-    "button": "Has köp"
+    "button": ""
   },
 
   "partners": {
