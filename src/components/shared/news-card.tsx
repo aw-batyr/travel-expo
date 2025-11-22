@@ -17,7 +17,7 @@ export const NewsCard: FC<Props> = ({ className, date, description, img }) => {
       <div className="flex flex-col gap-3 py-10 px-5 text-white">
         <div className="flex items-center justify-between">
           <span className="text-xl font-medium">{date}</span>
-          <ArrowRight />
+          <ArrowRight className="size-4" />
         </div>
         <hr />
         <p className="p text-ellipsis">{description}</p>

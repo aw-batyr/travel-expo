@@ -21,15 +21,15 @@
 }
 
 .button-primary {
-  @apply relative bg-primary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-violet after:rounded-tl-[20px] after:-z-10;
+  @apply h-12 relative bg-primary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-violet after:rounded-tl-[20px] after:-z-10;
 }
 
 .button-white {
-  @apply relative bg-white text-violet text-lg py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
+  @apply h-12 relative bg-white text-violet text-lg py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
 }
 
 .button-secondary {
-  @apply relative bg-secondary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
+  @apply h-12 relative bg-secondary text-lg text-white py-3 px-5 rounded-tl-[20px] cursor-pointer after:absolute after:size-full after:-bottom-1.5 after:-right-1.5 after:bg-primary after:rounded-tl-[20px] after:-z-10;
 }
 
 .h1 {

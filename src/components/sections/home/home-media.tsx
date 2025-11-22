@@ -75,8 +75,8 @@ export const HomeMedia = () => {
             ))}
           </div>
 
-          <div className="flex justify-center mt-10">
-            <button className="button-white w-fit px-12!">
+          <div className="flex justify-center mt-10 w-full">
+            <button className="button-white w-50 px-12!">
               {t("media.button")}
             </button>
           </div>

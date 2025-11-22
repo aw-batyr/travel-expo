@@ -29,9 +29,7 @@ export const HomeNews = () => {
         ))}
       </div>
 
-      <button className="button-secondary w-fit mx-auto px-12!">
-        {button}
-      </button>
+      <button className="button-secondary w-50 mx-auto px-12!">{button}</button>
     </section>
   );
 };

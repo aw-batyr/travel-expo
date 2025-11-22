@@ -39,8 +39,8 @@ export const Card = ({ className, img, title, description, button }: Props) => {
           )}
         </div>
 
-        <Link to={button.link ?? ""}>
-          <button className="button-white">{button.text}</button>
+        <Link to={button.link ?? ""} className="w-[168px]">
+          <button className="button-white w-full">{button.text}</button>
         </Link>
       </div>
     </article>

@@ -37,7 +37,7 @@ export const LangMenu: FC<Props> = ({ className }) => {
       >
         {locale.text}
         <ChevronDown
-          className={clsx("transition-all", active && "rotate-180")}
+          className={clsx("transition-all size-4", active && "rotate-180")}
         />
       </div>
 
@@ -45,7 +45,7 @@ export const LangMenu: FC<Props> = ({ className }) => {
         initial={{ opacity: 0, y: -10, pointerEvents: "none" }}
         animate={active ? { opacity: 100, y: 0, pointerEvents: "auto" } : {}}
         transition={{ duration: 0.2, ease: "easeInOut" }}
-        className="absolute top-6 right-0 z-50 flex flex-col gap-2 bg-white py-2 w-16 text-left rounded-lg"
+        className="absolute top-6 right-0 z-50 flex flex-col gap-2 bg-white text-secondary py-2 w-16 text-left rounded-lg"
       >
         {langs
           .filter((item) => item.value !== locale.value)

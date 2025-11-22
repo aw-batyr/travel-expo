@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router";
 import { LangMenu } from "../shared";
 import { Burger } from "./";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export const Header = () => {
   const { t } = useTranslation("global");
@@ -19,31 +19,32 @@ export const Header = () => {
 
   return (
     <header className="fixed z-50 left-0 top-0 right-0 drop-shadow-sm">
-      <div className="h-12 md:flex hidden bg-secondary text-white! items-center">
-        <div className="container flex items-center justify-between text-xs font-normal">
+      <div className="bg-secondary mx-auto h-21 lg:flex hidden text-white justify-between">
+        <div className="max-w-435 w-full mx-auto flex items-center justify-between text-sm font-normal">
           <div className="flex items-center justify-center gap-6">
             <div className="flex items-center gap-2">
               <MapPin className="text-white" />
-              Ашхабад, Туркменистан
+              {t("header.country")}
             </div>
           </div>
 
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <Phone />
-              +993(62) 00-62-00
+              <img src="/phone.svg" className="size-4" />
+              +993 71 87-18-12
             </div>
             <div className="flex items-center gap-2">
-              <Mail />
+              <Mail className="size-4" />
               contact@turkmenexpo.com
             </div>
+            <LangMenu />
           </div>
         </div>
       </div>
 
-      <div className="h-24 bg-background relative z-10">
-        <div className="max-w-435 mx-auto flex items-center justify-between px-4 py-4">
-          <div className="xl:h-15 h-10 w-auto flex items-center justify-center overflow-hidden">
+      <div className="h-21 bg-background relative z-10">
+        <div className="max-w-435 h-full mx-auto flex items-center justify-between px-4">
+          <div className="xl:h-15 h-10 w-fit flex items-center justify-center">
             <img src="/logo.svg" alt="" className="size-full object-contain" />
           </div>
 
@@ -63,11 +64,7 @@ export const Header = () => {
               </ul>
             </nav>
 
-            <div className="h-5 w-px bg-black/20" />
-
-            <LangMenu />
-
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 -mt-3">
               {buttons.map((item, i) => (
                 <Link key={item.text} to={item.link}>
                   <button

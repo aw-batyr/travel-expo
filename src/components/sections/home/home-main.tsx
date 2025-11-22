@@ -27,7 +27,7 @@ export const HomeMain = () => {
         {data.stats.map((item, i) => (
           <article
             key={item.description}
-            className="flex flex-[0_0_23%] items-center gap-5"
+            className="flex flex-[0_0_23%] items-start gap-5"
           >
             <img src={`/icons/stats/${i + 1}.svg`} alt="" />
             <div>
@@ -40,14 +40,14 @@ export const HomeMain = () => {
         ))}
       </div>
 
-      <div className="relative min-h-[442px] w-full overflow-hidden">
+      <div className="relative min-h-[442px] w-full overflow-hidden rounded-[30px]">
         <img
           src="/home/main-bg.jpg"
           alt=""
           className="absolute top-0 left-0 size-full object-cover"
         />
 
-        <div className="relative z-10 bg-white top-10 lg:top-16 left-10 p-10 w-[80%] md:w-[45%]">
+        <div className="relative z-10 bg-white/75 top-10 lg:top-16 left-10 p-10 w-[80%] md:w-[45%]">
           <h2 className="lg:text-4xl text-2xl leading-[130%] text-on-background mb-5">
             {data.title}
           </h2>

@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen overflow-hidden bg-background">
-      <div className="w-full h-24 bg-transparent" />
+      <div className="w-full lg:h-42 h-21 bg-transparent" />
       <Header />
 
       <main className="flex-auto">

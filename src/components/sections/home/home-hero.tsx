@@ -28,11 +28,12 @@ export const HomeHero = () => {
         />
 
         <div className="container relative top-1/2 -translate-y-1/2 left-0">
-          <div className="lg:w-[90%] w-full p-5 lg:p-10 bg-white">
-            <h1 className="h1 mb-3 text-black">{data.title}</h1>
+          <div className="flex flex-col lg:w-[720px] lg:min-h-[470px] h-fit w-full p-5 lg:p-10 bg-white/75">
+            <div className="flex-1">
+              <h1 className="h1 mb-3 text-black">{data.title}</h1>
 
-            <p className="p">{data.description}</p>
-
+              <p className="p">{data.description}</p>
+            </div>
             <div className="relative z-10 flex items-center gap-4 mt-10">
               {data.buttons.map((item, i) => (
                 <button key={i} className={clsx("button-secondary")}>
@@ -46,7 +47,7 @@ export const HomeHero = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-10 bg-primary select-none py-4 text-white whitespace-nowrap text-2xl overflow-hidden">
+      <div className="flex items-center gap-10 bg-primary select-none py-1.5 text-white whitespace-nowrap text-[26px] overflow-hidden">
         <Marquee>
           <span>{data.moveText}</span>
           <span>{data.moveText}</span>

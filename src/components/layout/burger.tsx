@@ -33,11 +33,13 @@ export const Burger = () => {
         initial={{ opacity: 0, x: "100%", pointerEvents: "none" }}
         animate={burger ? { opacity: 1, x: 0, pointerEvents: "all" } : {}}
         transition={{ duration: 0.5, ease: "easeIn" }}
-        className="absolute md:top-36 top-20 z-40 left-0 min-h-screen flex flex-col gap-10 w-full p-5 bg-background"
+        className="absolute lg:top-36 top-20 z-40 left-0 min-h-screen flex flex-col gap-10 w-full p-5 bg-background"
       >
         <nav className="flex flex-col gap-5 text-2xl pt-10">
-          {nav.map((item) => (
-            <Link to={item?.link ?? ""}>{item.text}</Link>
+          {nav.map((item, i) => (
+            <Link key={i} to={item?.link ?? ""}>
+              {item.text}
+            </Link>
           ))}
         </nav>
 

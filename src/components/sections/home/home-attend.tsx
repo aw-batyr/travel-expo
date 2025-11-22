@@ -14,7 +14,7 @@ const photos = [
   "/home/card-img.png",
   "/cards/2.jpg",
   "/home/card-img.png",
-  "/home/card-img.png",
+  "/cards/4.jpg",
   "/cards/5.jpg",
   "/home/card-img.png",
 ];

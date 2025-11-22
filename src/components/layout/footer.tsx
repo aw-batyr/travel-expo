@@ -5,7 +5,7 @@ export const Footer = () => {
   const { t } = useTranslation("global");
 
   const socials = [
-    { icon: <Instagram fill="" />, link: "" },
+    { icon: <Instagram />, link: "" },
     { icon: <Linkedin />, link: "" },
     { icon: <Facebook />, link: "" },
     { icon: <Twitter />, link: "" },
@@ -23,9 +23,7 @@ export const Footer = () => {
 
           <div className="flex items-center gap-6">
             {socials.map((item, i) => (
-              <div key={i} className="">
-                {item.icon}
-              </div>
+              <span key={i}>{item.icon}</span>
             ))}
           </div>
         </div>

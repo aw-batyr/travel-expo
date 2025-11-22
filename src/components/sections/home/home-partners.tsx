@@ -11,8 +11,8 @@ export const HomePartners = () => {
   const btnClassName = "cursor-pointer p-3 size-14";
 
   return (
-    <section className="container flex flex-col gap-10">
-      <h2 className="text-3xl text-center">{title}</h2>
+    <section className="container flex flex-col gap-15 py-10">
+      <h2 className="h2 text-center">{title}</h2>
 
       <div className="flex items-center justify-center gap-5">
         <button onClick={() => emblaApi?.scrollPrev()} className={btnClassName}>
@@ -23,17 +23,18 @@ export const HomePartners = () => {
           ref={emblaRef}
           className="flex items-center justify-center gap-5 overflow-hidden"
         >
-          <div className="flex items-center justify-center gap-5">
+          <div className="flex items-center justify-center gap-10">
             {Array.from({ length: 3 }).map((_, i) => (
               <div
                 key={i}
-                className="flex items-center flex-[0_0_200px] h-45 p-5 bg-white"
+                className="flex items-center flex-[0_0_200px] h-45 p-5"
               >
                 <img src={`/partners/${i + 1}.png`} alt="" />
               </div>
             ))}
           </div>
         </div>
+
         <button onClick={() => emblaApi?.scrollNext()} className={btnClassName}>
           <ChevronRight className="size-full" />
         </button>

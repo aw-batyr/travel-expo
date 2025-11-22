@@ -10,7 +10,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:gap-40 gap-20">
+    <div className="flex flex-col gap-10 md:gap-20">
       <HomeHero />
       <HomeMain />
       <HomeAttend />
