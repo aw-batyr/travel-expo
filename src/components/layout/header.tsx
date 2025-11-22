@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className="fixed z-50 left-0 top-0 right-0 drop-shadow-sm">
-      <div className="bg-secondary mx-auto h-21 lg:flex hidden text-white justify-between">
+      <div className="bg-secondary mx-auto h-21 lg:flex hidden text-white justify-between px-4">
         <div className="max-w-435 w-full mx-auto flex items-center justify-between text-sm font-normal">
           <div className="flex items-center justify-center gap-6">
             <div className="flex items-center gap-2">
