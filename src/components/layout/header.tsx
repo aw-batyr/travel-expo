@@ -53,7 +53,7 @@ export const Header = () => {
             <Burger />
           </div>
 
-          <div className="hidden lg:flex items-center 2xl:gap-12 gap-3">
+          <div className="hidden lg:flex items-center xl:gap-12 gap-3">
             <nav>
               <ul className="flex items-center gap-6">
                 {nav.map((item) => (
@@ -66,10 +66,11 @@ export const Header = () => {
 
             <div className="flex items-center gap-6 -mt-3">
               {buttons.map((item, i) => (
-                <Link key={item.text} to={item.link}>
+                <Link key={item.text} to={item.link} className="w-[195px]">
                   <button
                     className={clsx(
-                      i !== 0 ? "button-secondary" : "button-primary"
+                      "w-full",
+                      i === 0 ? "button-secondary" : "button-primary"
                     )}
                   >
                     {item.text}

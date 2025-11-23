@@ -22,8 +22,10 @@ export const Card = ({ className, img, title, description, button }: Props) => {
     >
       <img src={img} alt="" className="md:h-110 h-70 w-auto object-cover" />
 
-      <div className="flex flex-col flex-1 lg:pt-10 pt-6 justify-between gap-6 lg:px-10 px-6 lg:pb-10 pb-6">
-        <div className="flex flex-col gap-5 lg:gap-6 flex-1 justify-between">
+      {/* контент = растягиваемый flex-контейнер */}
+      <div className="flex flex-col flex-1 lg:pt-10 pt-6 lg:px-10 px-6 lg:pb-10 pb-6 gap-6">
+        {/* текстовый блок */}
+        <div className="flex flex-col gap-5 lg:gap-6">
           <h3 className="h3">{title}</h3>
 
           {Array.isArray(description) ? (
@@ -39,9 +41,12 @@ export const Card = ({ className, img, title, description, button }: Props) => {
           )}
         </div>
 
-        <Link to={button.link ?? ""} className="w-[168px]">
-          <button className="button-white w-full">{button.text}</button>
-        </Link>
+        {/* кнопка прибитая к низу */}
+        <div className="mt-auto">
+          <Link to={button.link ?? ""}>
+            <button className="button-white w-[168px]">{button.text}</button>
+          </Link>
+        </div>
       </div>
     </article>
   );

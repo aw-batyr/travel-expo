@@ -55,32 +55,15 @@
   @apply size-3 bg-white rounded-full;
 }
 
-.marquee-wrapper {
-  overflow: hidden;
-  width: 100%;
-  white-space: nowrap;
-  background: #ff008c;
-}
-
-.marquee-track {
-  display: flex;
-  flex-wrap: nowrap;
-  animation: marquee 20s linear infinite;
-}
-
-.marquee-content {
-  display: flex;
-  gap: 30px;
-  flex-shrink: 0;
-  min-width: 60%; /* <-- ключевой момент */
-  padding-right: 40px;
-}
-
 @keyframes marquee {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
+  0% {
     transform: translateX(0);
   }
+  100% {
+    transform: translateX(calc(-1 * var(--content-width)));
+  }
+}
+
+.animate-marquee {
+  animation: marquee 12s linear infinite;
 }

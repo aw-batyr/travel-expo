@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { Marquee } from "../../shared/marquee";
 import { Link } from "react-router";
+import Marquee from "react-fast-marquee";
 import clsx from "clsx";
 
 export const HomeHero = () => {
@@ -36,7 +36,7 @@ export const HomeHero = () => {
             </div>
             <div className="relative z-10 flex items-center gap-4 mt-10">
               {data.buttons.map((item, i) => (
-                <button key={i} className={clsx("button-secondary")}>
+                <button key={i} className={clsx("button-secondary w-[206px]")}>
                   <Link to={item.link} key={item.text}>
                     {item.text}
                   </Link>
@@ -47,10 +47,21 @@ export const HomeHero = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-10 bg-primary select-none py-1.5 text-white whitespace-nowrap text-[26px] overflow-hidden">
-        <Marquee>
-          <span>{data.moveText}</span>
-          <span>{data.moveText}</span>
+      <div>
+        <Marquee
+          loop={100}
+          className="flex gap-4 items-center bg-primary select-none py-1.5 text-white whitespace-nowrap text-[26px]"
+        >
+          <div className="flex items-center gap-10">
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+            <span>{data.moveText}</span>
+          </div>
         </Marquee>
       </div>
     </section>

@@ -4,12 +4,12 @@
     "description": "'Turkmen Travel' is an international exhibition dedicated to the development of tourism in Turkmenistan, held in Ashgabat. It brings together travel agencies, hotels, airlines, and tour operators from around the world to present tourist destinations, develop partnerships, and promote the country’s cultural and natural attractions.",
     "buttons": [
       {
-        "text": "Enquire to exhibit",
+        "text": "Register",
         "link": ""
       }
     ],
 
-    "moveText": "EARLY BIRD DISCOUNT! REGISTER TODAY "
+    "moveText": "REGISTER TODAY"
   },
 
   "about": {
@@ -34,7 +34,7 @@
 
     "title": "Registration for the international exhibition Turkmen Travel is open",
     "button": {
-      "text": "Enquire to exhibit",
+      "text": "Register",
       "link": ""
     }
   },
